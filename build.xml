@@ -7,7 +7,6 @@
 		<target name="war" depends="init">
 			<war destfile="dist/HelloWebApp.war" webxml="WebContent/WEB-INF/web.xml">
 				<fileset dir="WebContent"/>
-				<lib dir="WebContent/WEB-INF/lib"/>
 			</war>
 		</target>
 		
